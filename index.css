@@ -1,0 +1,28 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li{display: inline;
+	float: left;
+}
+
+a{
+	display: inline-block;
+	line-height: 24px;
+	padding-left: 30px;
+	padding-right: 30px;
+	outline: none;
+	vertical-align: middle;
+	font-family: arial, sans-serif;
+}
+
+.gmail, .images {
+	color: #000;
+	text-decoration: none;
+}
+
+.options {
+	background-image: url(https://ssl.gstatic.com/gb/images/i2_2ec824b0.png');
+}
