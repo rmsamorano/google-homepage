@@ -2,27 +2,79 @@
 <html>
 <head>
 	<title>Google</title>
-	<link rel="stylesheet" href="style.css">
-	
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
-	<center>
-	<img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" ><br>
-	<form class="searchbar">
-		<input type="text" name="searchbar">
+	<body>
+		<div id="container">
+		<div id="topbar">
+			<ul>
+				<li>
+					<a id="signin" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/">Sign in
+					</a>
+				</li>
+				<li>
+					<a  id="options" href="https://www.google.com/intl/en/options/"><img src="./images/apps.png">
+					</a>
+				</li>
+				<li>
+					<a id="images" href="https://www.google.com/imghp?hl=en&tab=wi&ei=MS2cV-qdK9i2jwOVrqCQDQ&ved=0EKouCBYoAQ">Images
+					</a>
+				</li>
+				<li>
+					<a id="gmail" href="https://mail.google.com/mail/?tab=wm">Gmail
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="googlesearch">
+			<img id="logo" src="./images/logo.png">
+			
+				<div class="searchbar">
+				<form action="POST">
+				<input type="text" size="75" name="search">
+				</div>
+		<center>
+			<input type="submit" id="btna" name="search" value="Google Search">
+			<input type="submit" id="btnb" name="lucky"
+			value="I'm Feeling Lucky">
+			</form>
+		</center>
+		</div>
+		<div class="fbar">
+		<div id="left">
+			<ul class="footer">
+				<li>
+					<a id="advertising" href="//www.google.com/intl/en/ads/?fg=1">Advertising</a>
+				</li>
+				<li>
+					<a id="business" href="//www.google.com/services/?fg=1">Business</a>
+				</li>
+				<li> 
+					<a id="about" href="//www.google.com/intl/en/about.html?fg=1">About</a>
+				</li>
+			</ul>
+		</div>
+		<div id="right">
+			<ul class="footer">
+				<li>
+					<a id="settings" href="https://www.google.com/preferences?hl=en">Settings</a>
+				</li>
+				<li>
+					<a id="terms" href="//www.google.com/intl/en/policies/terms/?fg=1">Terms</a>
+				</li>
+				<li>
+					<a id="privacy" href="//www.google.com/intl/en/policies/privacy/?fg=1">Privacy</a>
+				</li>
+			</ul>
+		</div>
 
-	</form>
-	</center>
 
-	<ul class="topbar">
-		<li><a class="gmail" href="https://mail.google.com/mail/?tab=wm">Gmail</a></li>
-		<li><a class="images" href="https://www.google.com/imghp?hl=en&tab=wi&ei=MS2cV-qdK9i2jwOVrqCQDQ&ved=0EKouCBYoAQ">Images</a></li>
-		<li><a class="options" href="https://www.google.com/intl/en/options/"><img src="apps.png"/></a></li>
-		<li><a class="signin" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/">Sign in</a></li>
-	</ul>
+		</div>
 
 
 
-</body>
+
+		
+	</body>
 
 </html>
